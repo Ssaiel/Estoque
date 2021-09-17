@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="5.1.5" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="42632,4717318287" ReportOptions.Description.Text="" ReportOptions.LastChange="42779,6796033912" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="frxDeclaracao" DataSetName="frxDeclaracao"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="192,75603" Left="0" Top="18,89765" Width="718,1107">
+      <TfrxMemoView Name="frxDeclaracaonome" Left="0" Top="3,77953" Width="718,1107" Height="22,67718" DataField="nome" DataSet="frxDeclaracao" DataSetName="frxDeclaracao" Font.Charset="1" Font.Color="0" Font.Height="-19" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="[frxDeclaracao.&#34;nome&#34;]"/>
+      <TfrxMemoView Name="Memo6" Left="0" Top="30,23624" Width="718,1107" Height="22,67718" DataSet="frxDeclaracao" DataSetName="frxDeclaracao" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="CNPJ: [frxDeclaracao.&#34;cnpj&#34;]"/>
+      <TfrxMemoView Name="Memo7" Left="0" Top="64,25201" Width="718,1107" Height="18,89765" StretchMode="smActualHeight" AutoWidth="True" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="Exercício: [&#60;frxDeclaracao.&#34;mes&#34;&#62;]/[&#60;frxDeclaracao.&#34;ano&#34;&#62;]">
+        <Formats>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Height="532,91373" Left="0" ParentFont="False" Top="272,12616" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="frxDeclaracao" DataSetName="frxDeclaracao" RowCount="0">
+      <TfrxMemoView Name="Memo1" Left="0" Top="26,45671" Width="718,1107" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="DECLARAÇÃO"/>
+      <TfrxMemoView Name="Memo2" Left="0" Top="75,5906" Width="718,1107" Height="60,47248" StretchMode="smActualHeight" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" HAlign="haBlock" ParentFont="False" Text="         Eu, [frxDeclaracao.&#34;resp1_nome&#34;], encarregado(a) do Almoxarifado da [frxDeclaracao.&#34;nome&#34;], CPF [frxDeclaracao.&#34;resp1_cic&#34;] residente e domiciliado(a) em [frxDeclaracao.&#34;cidade&#34;].">
+        <Formats>
+          <item/>
+          <item/>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="Memo3" Left="0" Top="139,84261" Width="718,1107" Height="120,94496" StretchMode="smActualHeight" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" HAlign="haBlock" ParentFont="False" Text="         DECLARO para os devidos fins que se fizerem necessários e sob as penas da lei e em atendimento normativas do tribunal de contas que não houve saldo de almoxarifado a ser demonstrado no final do exercício de [frxDeclaracao.&#34;ano&#34;], sendo os materiais distribuídos dentro do exercício e registrados as entradas e saídas em programa específico para tal fim, tendo seus relatórios impressos e arquivados na sede desta [frxDeclaracao.&#34;nome&#34;], e a disposição de eventuais fiscalizações  desta Corte de Contas."/>
+    </TfrxMasterData>
+    <TfrxFooter Name="Footer1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="143,62214" Left="0" Top="827,71707" Width="718,1107" Stretched="True">
+      <TfrxMemoView Name="Memo4" Left="0" Top="7,55906" Width="718,1107" Height="30,23624" StretchMode="smActualHeight" AutoWidth="True" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="Por ser expressão da verdade afirmo a presente&#13;&#10;[frxDeclaracao.&#34;nome&#34;]"/>
+      <TfrxMemoView Name="Memo5" Left="0" Top="37,7953" Width="718,1107" Height="45,35436" StretchMode="smActualHeight" AutoWidth="True" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="CPF [frxDeclaracao.&#34;resp1_cic&#34;]"/>
+    </TfrxFooter>
+  </TfrxReportPage>
+</TfrxReport>

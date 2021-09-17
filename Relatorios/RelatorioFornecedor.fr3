@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="5.1.5" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="42047,6381639352" ReportOptions.Description.Text="" ReportOptions.LastChange="42565,4210197801" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="frxDBRelatorioFornecedor" DataSetName="frxDBRelatorioFornecedor"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxPageHeader Name="PageHeader1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="170,07885" Left="0" Top="18,89765" Width="718,1107">
+      <TfrxPictureView Name="Logomarca" Left="15,11812" Top="3,77953" Width="136,06308" Height="113,3859" HightQuality="False" Transparent="False" TransparentColor="16777215"/>
+      <TfrxMemoView Name="Memo1" Left="170,07885" Top="3,77953" Width="207,87415" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="Sistema Compras e Estoque"/>
+      <TfrxMemoView Name="frxDBRelatorioFornecedorEstado" Left="170,07885" Top="27,7953" Width="359,05535" Height="18,89765" DataField="Estado" DataSet="frxDBRelatorioFornecedor" DataSetName="frxDBRelatorioFornecedor" Text="[frxDBRelatorioFornecedor.&#34;Estado&#34;]"/>
+      <TfrxMemoView Name="frxDBRelatorioFornecedorPrefeitura" Left="170,07885" Top="50,81107" Width="453,5436" Height="18,89765" DataField="Prefeitura" DataSet="frxDBRelatorioFornecedor" DataSetName="frxDBRelatorioFornecedor" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="[frxDBRelatorioFornecedor.&#34;Prefeitura&#34;]"/>
+      <TfrxMemoView Name="frxDBRelatorioFornecedorcnpj" Left="170,07885" Top="73,26778" Width="302,3624" Height="18,89765" DataSet="frxDBRelatorioFornecedor" DataSetName="frxDBRelatorioFornecedor" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="CNPJ: [frxDBRelatorioFornecedor.&#34;cnpj&#34;]"/>
+      <TfrxMemoView Name="Date" Left="638,74057" Top="0" Width="79,37013" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[Date]"/>
+      <TfrxMemoView Name="Memo7" Left="234,33086" Top="143,62214" Width="241,88992" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-17" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="Relatório de Fornecedores"/>
+    </TfrxPageHeader>
+    <TfrxColumnHeader Name="ColumnHeader1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="45,35436" Left="0" Top="211,65368" Width="718,1107">
+      <TfrxMemoView Name="Memo2" Left="3,77953" Top="0" Width="41,57483" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="CNPJ"/>
+      <TfrxMemoView Name="Memo3" Left="113,3859" Top="0" Width="238,11039" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Razão Social"/>
+      <TfrxMemoView Name="Memo4" Left="355,27582" Top="0" Width="83,14966" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="Telefone"/>
+      <TfrxMemoView Name="Memo5" Left="442,20501" Top="0" Width="139,84261" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="Nome de Contato"/>
+      <TfrxMemoView Name="Memo6" Left="585,82715" Top="0" Width="128,50402" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="Email"/>
+      <TfrxLineView Name="Line2" Left="0" Top="45,35436" Width="718,1107" Height="0" Color="0" Frame.Color="8421504" Frame.Typ="4"/>
+      <TfrxLineView Name="Line3" Left="0,22047" Top="0" Width="718,1107" Height="0" Color="0" Frame.Typ="4"/>
+    </TfrxColumnHeader>
+    <TfrxReportSummary Name="ReportSummary1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="22,67718" Left="0" Top="408,18924" Width="718,1107">
+      <TfrxSysMemoView Name="SysMemo1" Left="3,77953" Top="0" Width="192,75603" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="Itens Listados: [COUNT(MasterData1)]"/>
+    </TfrxReportSummary>
+    <TfrxPageFooter Name="PageFooter1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="22,67718" Left="0" Top="453,5436" Width="718,1107">
+      <TfrxMemoView Name="Page" Left="634,96104" Top="0" Width="79,37013" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[Page#]"/>
+    </TfrxPageFooter>
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="30,23624" Left="0" Top="317,48052" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="frxDBRelatorioFornecedor" DataSetName="frxDBRelatorioFornecedor" RowCount="0" Stretched="True">
+      <TfrxMemoView Name="frxDBRelatorioFornecedornomefantasia" Left="113,3859" Top="3,77953" Width="238,11039" Height="18,89765" StretchMode="smActualHeight" DataSet="frxDBRelatorioFornecedor" DataSetName="frxDBRelatorioFornecedor" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[frxDBRelatorioFornecedor.&#34;razaosocial&#34;]"/>
+      <TfrxMemoView Name="frxDBRelatorioFornecedoremail" Left="585,82715" Top="3,77953" Width="128,50402" Height="18,89765" StretchMode="smActualHeight" DataField="email" DataSet="frxDBRelatorioFornecedor" DataSetName="frxDBRelatorioFornecedor" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[frxDBRelatorioFornecedor.&#34;email&#34;]"/>
+      <TfrxMemoView Name="frxDBRelatorioFornecedorcpfcnpj" Left="0,77953" Top="3,77953" Width="109,60637" Height="18,89765" StretchMode="smActualHeight" DataField="cpfcnpj" DataSet="frxDBRelatorioFornecedor" DataSetName="frxDBRelatorioFornecedor" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[frxDBRelatorioFornecedor.&#34;cpfcnpj&#34;]"/>
+      <TfrxMemoView Name="frxDBRelatorioFornecedortelefone" Left="355,27582" Top="3,77953" Width="83,14966" Height="18,89765" StretchMode="smActualHeight" DataField="telefone" DataSet="frxDBRelatorioFornecedor" DataSetName="frxDBRelatorioFornecedor" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[frxDBRelatorioFornecedor.&#34;telefone&#34;]"/>
+      <TfrxMemoView Name="frxDBRelatorioFornecedornomecontato" Left="442,20501" Top="3,77953" Width="139,84261" Height="18,89765" StretchMode="smActualHeight" DataField="nomecontato" DataSet="frxDBRelatorioFornecedor" DataSetName="frxDBRelatorioFornecedor" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[frxDBRelatorioFornecedor.&#34;nomecontato&#34;]"/>
+      <TfrxLineView Name="Line1" Left="-0,77953" Top="26,45671" Width="718,1107" Height="0" StretchMode="smMaxHeight" Color="0" Frame.Color="8421504" Frame.Typ="4"/>
+    </TfrxMasterData>
+  </TfrxReportPage>
+</TfrxReport>
